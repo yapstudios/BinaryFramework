@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "MGSwipeTableCellPackage",
+    name: "MGSwipeTableCell",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "MGSwipeTableCellPackage",
-            targets: ["MGSwipeTableCellPackage"]),
+            name: "MGSwipeTableCell",
+            targets: ["MGSwipeTableCell"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
