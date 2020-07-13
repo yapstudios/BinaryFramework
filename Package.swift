@@ -14,7 +14,9 @@ let package = Package(
         .library(name: "AFNetworking", targets: ["AFNetworking"]),
         .library(name: "ImageSlideshow", targets: ["ImageSlideshow"]),
         .library(name: "Alamofire", targets: ["Alamofire"]),
-        .library(name: "AlamofireImage", targets: ["AlamofireImage"])
+        .library(name: "AlamofireImage", targets: ["AlamofireImage"]),
+        .library(name: "PromiseKit", targets: ["CocoaLumberjack"]),
+        .library(name: "CocoaLumberjack", targets: ["CocoaLumberjack"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -28,6 +30,8 @@ let package = Package(
         .binaryTarget(name: "AFNetworking", url: "https://www.yapstudios.com/frameworks/AFNetworking.xcframework.zip", checksum: "159e8cef77333f90e4d60f534d6e975333d597b232f01a45ef34a61b499d98ac"),
         .binaryTarget(name: "ImageSlideshow", url: "https://www.yapstudios.com/frameworks/ImageSlideshow.xcframework.zip", checksum: "99e79e70d6cc40b6da3ae84485092feb136887d4b79197550329e1bcc2a159ed"),
         .binaryTarget(name: "Alamofire", url: "https://www.yapstudios.com/frameworks/Alamofire.xcframework.zip", checksum: "1ccca4cd866cdbc37b2ec56aa65da0e7022f0a22a51e249fb23e7993d654fce6"),
-        .binaryTarget(name: "AlamofireImage", url: "https://www.yapstudios.com/frameworks/AlamofireImage.xcframework.zip", checksum: "02793c662d8d1dd6fd76f0e8421774fe7baa5b31b66e55934ac98fc5b521ac99")
+        .binaryTarget(name: "AlamofireImage", url: "https://www.yapstudios.com/frameworks/AlamofireImage.xcframework.zip", checksum: "02793c662d8d1dd6fd76f0e8421774fe7baa5b31b66e55934ac98fc5b521ac99"),
+        .binaryTarget(name: "PromiseKit", url: "https://www.yapstudios.com/frameworks/PromiseKit.xcframework.zip", checksum: "303e2a89e087693e307c796d68d246e2a789aba80990d7cc7fb4bb4510e62994"),
+        .binaryTarget(name: "CocoaLumberjack", url: "https://www.yapstudios.com/frameworks/CocoaLumberjack.xcframework.zip", checksum: "52c10c4bd1901ea8895cd79fab37f9c2acf1b73f40849d343175937f700aad0d")
     ]
 )
