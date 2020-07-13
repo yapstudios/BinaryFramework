@@ -11,7 +11,8 @@ let package = Package(
         .library(name: "RestKit", targets: ["RestKit"]),
         .library(name: "Shimmer", targets: ["Shimmer"]),
         .library(name: "RKValueTransformers", targets: ["RKValueTransformers"]),
-        .library(name: "AFNetworking", targets: ["AFNetworking"])
+        .library(name: "AFNetworking", targets: ["AFNetworking"]),
+        .library(name: "ImageSlideshow", targets: ["ImageSlideshow"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
