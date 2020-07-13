@@ -22,6 +22,7 @@ let package = Package(
         .binaryTarget(name: "RestKit", url: "https://www.yapstudios.com/frameworks/RestKit.xcframework.zip", checksum: "b83d47ea9902ddc202a78d053ad3000eae180bfb2a5b394f49da05b00984209e"),
         .binaryTarget(name: "Shimmer", url: "https://www.yapstudios.com/frameworks/Shimmer.xcframework.zip", checksum: "f1cf83ac85cb49d82bb430f849ec823e31cf8d1e4d93c5e720641a9cf941244a"),
         .binaryTarget(name: "RKValueTransformers", url: "https://www.yapstudios.com/frameworks/RKValueTransformers.xcframework.zip", checksum: "f7cbff059a72dd76f76957ae729a047c0c5f71c52d77426131170c29a0b9ec3a"),
-        .binaryTarget(name: "AFNetworking", url: "https://www.yapstudios.com/frameworks/AFNetworking.xcframework.zip", checksum: "159e8cef77333f90e4d60f534d6e975333d597b232f01a45ef34a61b499d98ac")
+        .binaryTarget(name: "AFNetworking", url: "https://www.yapstudios.com/frameworks/AFNetworking.xcframework.zip", checksum: "159e8cef77333f90e4d60f534d6e975333d597b232f01a45ef34a61b499d98ac"),
+        .binaryTarget(name: "ImageSlideshow", url: "https://www.yapstudios.com/frameworks/ImageSlideshow.xcframework.zip", checksum: "99e79e70d6cc40b6da3ae84485092feb136887d4b79197550329e1bcc2a159ed"),
     ]
 )
