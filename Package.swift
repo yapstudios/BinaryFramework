@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "ImageSlideshow", targets: ["ImageSlideshow"]),
         .library(name: "Alamofire", targets: ["Alamofire"]),
         .library(name: "AlamofireImage", targets: ["AlamofireImage"]),
-        .library(name: "PromiseKit", targets: ["CocoaLumberjack"]),
+        .library(name: "PromiseKit", targets: ["PromiseKit"]),
         .library(name: "CocoaLumberjack", targets: ["CocoaLumberjack"])
     ],
     dependencies: [
