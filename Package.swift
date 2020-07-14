@@ -16,7 +16,8 @@ let package = Package(
         .library(name: "Alamofire", targets: ["Alamofire"]),
         .library(name: "AlamofireImage", targets: ["AlamofireImage"]),
         .library(name: "PromiseKit", targets: ["PromiseKit"]),
-        .library(name: "CocoaLumberjack", targets: ["CocoaLumberjack"])
+        .library(name: "CocoaLumberjack", targets: ["CocoaLumberjack"]),
+        .library(name: "ISO8601DateFormatterValueTransformer", targets: ["ISO8601DateFormatterValueTransformer"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -32,6 +33,7 @@ let package = Package(
         .binaryTarget(name: "Alamofire", url: "https://www.yapstudios.com/frameworks/Alamofire.xcframework.zip", checksum: "1ccca4cd866cdbc37b2ec56aa65da0e7022f0a22a51e249fb23e7993d654fce6"),
         .binaryTarget(name: "AlamofireImage", url: "https://www.yapstudios.com/frameworks/AlamofireImage.xcframework.zip", checksum: "02793c662d8d1dd6fd76f0e8421774fe7baa5b31b66e55934ac98fc5b521ac99"),
         .binaryTarget(name: "PromiseKit", url: "https://www.yapstudios.com/frameworks/PromiseKit.xcframework.zip", checksum: "303e2a89e087693e307c796d68d246e2a789aba80990d7cc7fb4bb4510e62994"),
-        .binaryTarget(name: "CocoaLumberjack", url: "https://www.yapstudios.com/frameworks/CocoaLumberjack.xcframework.zip", checksum: "52c10c4bd1901ea8895cd79fab37f9c2acf1b73f40849d343175937f700aad0d")
+        .binaryTarget(name: "CocoaLumberjack", url: "https://www.yapstudios.com/frameworks/CocoaLumberjack.xcframework.zip", checksum: "52c10c4bd1901ea8895cd79fab37f9c2acf1b73f40849d343175937f700aad0d"),
+        .binaryTarget(name: "ISO8601DateFormatterValueTransformer", url: "https://www.yapstudios.com/frameworks/ISO8601DateFormatterValueTransformer.xcframework.zip", checksum: "ef6b60c0a0c2ecfa71ab8016d2c078c1c4d756ba2416604164850c008f91c4bd")
     ]
 )
