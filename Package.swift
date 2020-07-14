@@ -17,7 +17,9 @@ let package = Package(
         .library(name: "AlamofireImage", targets: ["AlamofireImage"]),
         .library(name: "PromiseKit", targets: ["PromiseKit"]),
         .library(name: "CocoaLumberjack", targets: ["CocoaLumberjack"]),
-        .library(name: "ISO8601DateFormatterValueTransformer", targets: ["ISO8601DateFormatterValueTransformer"])
+        .library(name: "ISO8601DateFormatterValueTransformer", targets: ["ISO8601DateFormatterValueTransformer"]),
+        .library(name: "TransitionKit", targets: ["TransitionKit"]),
+        .library(name: "SOCKit", targets: ["SOCKit"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -34,6 +36,8 @@ let package = Package(
         .binaryTarget(name: "AlamofireImage", url: "https://www.yapstudios.com/frameworks/AlamofireImage.xcframework.zip", checksum: "02793c662d8d1dd6fd76f0e8421774fe7baa5b31b66e55934ac98fc5b521ac99"),
         .binaryTarget(name: "PromiseKit", url: "https://www.yapstudios.com/frameworks/PromiseKit.xcframework.zip", checksum: "303e2a89e087693e307c796d68d246e2a789aba80990d7cc7fb4bb4510e62994"),
         .binaryTarget(name: "CocoaLumberjack", url: "https://www.yapstudios.com/frameworks/CocoaLumberjack.xcframework.zip", checksum: "52c10c4bd1901ea8895cd79fab37f9c2acf1b73f40849d343175937f700aad0d"),
-        .binaryTarget(name: "ISO8601DateFormatterValueTransformer", url: "https://www.yapstudios.com/frameworks/ISO8601DateFormatterValueTransformer.xcframework.zip", checksum: "ef6b60c0a0c2ecfa71ab8016d2c078c1c4d756ba2416604164850c008f91c4bd")
+        .binaryTarget(name: "ISO8601DateFormatterValueTransformer", url: "https://www.yapstudios.com/frameworks/ISO8601DateFormatterValueTransformer.xcframework.zip", checksum: "ef6b60c0a0c2ecfa71ab8016d2c078c1c4d756ba2416604164850c008f91c4bd"),
+        .binaryTarget(name: "TransitionKit", url: "https://www.yapstudios.com/frameworks/TransitionKit.xcframework.zip", checksum: "5aa619570615cf3e4b233504425ee518ec2c6bc063e6e2034dc95f1e17653cee"),
+        .binaryTarget(name: "SOCKit", url: "https://www.yapstudios.com/frameworks/SOCKit.xcframework.zip", checksum: "b5aedfea4f12f62d5568ca8305caf3711ebe92083dc8761e8e661c2c9f28bef1")
     ]
 )
