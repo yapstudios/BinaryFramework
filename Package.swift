@@ -31,7 +31,7 @@ let package = Package(
         .binaryTarget(name: "Shimmer", url: "https://www.yapstudios.com/frameworks/Shimmer.xcframework.zip", checksum: "f1cf83ac85cb49d82bb430f849ec823e31cf8d1e4d93c5e720641a9cf941244a"),
         .binaryTarget(name: "RKValueTransformers", url: "https://www.yapstudios.com/frameworks/RKValueTransformers.xcframework.zip", checksum: "f7cbff059a72dd76f76957ae729a047c0c5f71c52d77426131170c29a0b9ec3a"),
         .binaryTarget(name: "AFNetworking", url: "https://www.yapstudios.com/frameworks/AFNetworking.xcframework.zip", checksum: "159e8cef77333f90e4d60f534d6e975333d597b232f01a45ef34a61b499d98ac"),
-        .binaryTarget(name: "ImageSlideshow", url: "https://www.yapstudios.com/frameworks/ImageSlideshow.xcframework.zip", checksum: "99e79e70d6cc40b6da3ae84485092feb136887d4b79197550329e1bcc2a159ed"),
+        .binaryTarget(name: "ImageSlideshow", url: "https://www.yapstudios.com/frameworks/ImageSlideshow.xcframework.zip", checksum: "ddb789ee286c5bc3d07c67190dc58267f9b4b79a820de5f80abbe2665f78f3e6"),
         .binaryTarget(name: "Alamofire", url: "https://www.yapstudios.com/frameworks/Alamofire.xcframework.zip", checksum: "1ccca4cd866cdbc37b2ec56aa65da0e7022f0a22a51e249fb23e7993d654fce6"),
         .binaryTarget(name: "AlamofireImage", url: "https://www.yapstudios.com/frameworks/AlamofireImage.xcframework.zip", checksum: "02793c662d8d1dd6fd76f0e8421774fe7baa5b31b66e55934ac98fc5b521ac99"),
         .binaryTarget(name: "PromiseKit", url: "https://www.yapstudios.com/frameworks/PromiseKit.xcframework.zip", checksum: "303e2a89e087693e307c796d68d246e2a789aba80990d7cc7fb4bb4510e62994"),
