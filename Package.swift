@@ -26,18 +26,18 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(name: "MGSwipeTableCell", url: "https://www.yapstudios.com/frameworks/M1/MGSwipeTableCell.xcframework.zip", checksum: "b0e843f3b684bc6b897307c032599f3d65d598c26e903de4b5f739224a240ea5"),
-        .binaryTarget(name: "RestKit", url: "https://www.yapstudios.com/frameworks/M1/RestKit.xcframework.zip", checksum: "0bf161dfdb9f631002a300884100a4a8901393329ad5cf1e48c387c455829061"),
-        .binaryTarget(name: "Shimmer", url: "https://www.yapstudios.com/frameworks/M1/Shimmer.xcframework.zip", checksum: "458059b9a22bdae95f8bc52ff329a5e0e8632156d204fe2e9c2409dc96d107c7"),
-        .binaryTarget(name: "RKValueTransformers", url: "https://www.yapstudios.com/frameworks/M1/RKValueTransformers.xcframework.zip", checksum: "3ecde5d20f1ed9de70897e31509500bfe6a84eb93e27d5334a323dde6e7ac6fc"),
-        .binaryTarget(name: "AFNetworking", url: "https://www.yapstudios.com/frameworks/M1/AFNetworking.xcframework.zip", checksum: "166f47fd109a66b10dcbac6c96326e3884f92b8ba101d13b244f52e5d97f9e2f"),
-        .binaryTarget(name: "Alamofire", url: "https://www.yapstudios.com/frameworks/M1/Alamofire.xcframework.zip", checksum: "2ba30fde3618e8275b962398fac0aa8cc04729e0833de3c0b503d7b95acd02a4"),
-        .binaryTarget(name: "AlamofireImage", url: "https://www.yapstudios.com/frameworks/M1/AlamofireImage.xcframework.zip", checksum: "3294c4a4ef8891c4481c750e4da0bcd5c08c3a210c2339feffcdfa1e44467495"),
-        .binaryTarget(name: "MSAL", url: "https://www.yapstudios.com/frameworks/M1/MSAL.xcframework.zip", checksum: "147e8d818a4b502b84b2492e2a626788075f50a583f1d164f4cff512261ca9da"),
-        .binaryTarget(name: "PromiseKit", url: "https://www.yapstudios.com/frameworks/M1/PromiseKit.xcframework.zip", checksum: "0ff7de55b8901c47205e16d03b9109d69ebd7cbe331bcb8158f4204c5e8f2fdd"),
-        .binaryTarget(name: "CocoaLumberjack", url: "https://www.yapstudios.com/frameworks/M1/CocoaLumberjack.xcframework.zip", checksum: "68130aee60b79dc83b27ecbc655e55eff8a92bbc0e5b11cd96204ef43877c802"),
-        .binaryTarget(name: "ISO8601DateFormatterValueTransformer", url: "https://www.yapstudios.com/frameworks/M1/ISO8601DateFormatterValueTransformer.xcframework.zip", checksum: "ee91388e44f7ee5ad8d5ddbf0433e5cf924526f6ab094b0f8d98398443edae5b"),
-        .binaryTarget(name: "TransitionKit", url: "https://www.yapstudios.com/frameworks/M1/TransitionKit.xcframework.zip", checksum: "20902ae9d0f0368cfd3a498e41d8bbdb8cd6b9d07bb859d2b4320bce662d42ec"),
-        .binaryTarget(name: "SOCKit", url: "https://www.yapstudios.com/frameworks/M1/SOCKit.xcframework.zip", checksum: "79dbac4497217eabdda69f27d83528fd58b5cbaef6ab33ec68d5b2294ebe1539")
+        .binaryTarget(name: "MGSwipeTableCell", url: "https://www.yapstudios.com/frameworks/M1_macOS/MGSwipeTableCell.xcframework.zip", checksum: "a3f04f743d09d2d624fc32523055be5a6dece44cb85e61d897cf5a3d7af271b2"),
+        .binaryTarget(name: "RestKit", url: "https://www.yapstudios.com/frameworks/M1_macOS/RestKit.xcframework.zip", checksum: "307f31d107a4d9e970937c725e8f80fb5b19cc80a0f6a6885b83b794ab71babd"),
+        .binaryTarget(name: "Shimmer", url: "https://www.yapstudios.com/frameworks/M1_macOS/Shimmer.xcframework.zip", checksum: "899400f0ae50cdf5d9e7c0bf6abd5a084b620b9b3004ba90cb1793b2a7c5fee9"),
+        .binaryTarget(name: "RKValueTransformers", url: "https://www.yapstudios.com/frameworks/M1_macOS/RKValueTransformers.xcframework.zip", checksum: "d06f89c16c2e3b8d2956d86741989e8fdf5a6bfff90528c76f2cd9463620a366"),
+        .binaryTarget(name: "AFNetworking", url: "https://www.yapstudios.com/frameworks/M1_macOS/AFNetworking.xcframework.zip", checksum: "7d57dc9bad5f982bd59f723dee048babff8ee208126990c518b8797606a7fd9d"),
+        .binaryTarget(name: "Alamofire", url: "https://www.yapstudios.com/frameworks/M1_macOS/Alamofire.xcframework.zip", checksum: "d17505e14ebb8bbac199e5819358895aef48dbbb68c8ba9cfcd1fcf017e408f8"),
+        .binaryTarget(name: "AlamofireImage", url: "https://www.yapstudios.com/frameworks/M1_macOS/AlamofireImage.xcframework.zip", checksum: "6d71715aa76af3c04caaf8d8d49357c42e70d9988f58dea06d091b29062210eb"),
+        .binaryTarget(name: "MSAL", url: "https://www.yapstudios.com/frameworks/M1_macOS/MSAL.xcframework.zip", checksum: "284d13053ba55897f4bb4f6dced0282927b38a8b1342f9ba247623d8ccd4133a"),
+        .binaryTarget(name: "PromiseKit", url: "https://www.yapstudios.com/frameworks/M1_macOS/PromiseKit.xcframework.zip", checksum: "fd04c7ecd4b25169608cf39e50531485ebeca1e30f41dc63a19b911cbcc47c12"),
+        .binaryTarget(name: "CocoaLumberjack", url: "https://www.yapstudios.com/frameworks/M1_macOS/CocoaLumberjack.xcframework.zip", checksum: "0b607fa6121682aebebbef760d8756c77bfe71feb2a82c90477a5288d948cebc"),
+        .binaryTarget(name: "ISO8601DateFormatterValueTransformer", url: "https://www.yapstudios.com/frameworks/M1_macOS/ISO8601DateFormatterValueTransformer.xcframework.zip", checksum: "6887e7b3d00c7e5fdbd4a7e73271f0ba9a640afc732fadff652349dd10524b51"),
+        .binaryTarget(name: "TransitionKit", url: "https://www.yapstudios.com/frameworks/M1_macOS/TransitionKit.xcframework.zip", checksum: "eb29c69aa92f771a48aa6f17b11bcb7111912475bce8f800af4b67c8d4e847ec"),
+        .binaryTarget(name: "SOCKit", url: "https://www.yapstudios.com/frameworks/M1_macOS/SOCKit.xcframework.zip", checksum: "b2188c054dd86c0607a9596260c1573199d430aa1f2bfe356d9e32c52ba9de6b")
     ]
 )
